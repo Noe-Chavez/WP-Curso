@@ -11,13 +11,27 @@
 
 <header>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-4">
             <!-- 
                 se establece de manera dinamica la ruta del logo, para ello se utiliza get_template_directory_uri()
                 Para establecer de manera dinamica la raíz.
              -->
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png" alt="logo" >
+            </div>
+            <!-- 
+                Estableciendo menú principal.
+            -->
+            <div class="col-8">
+                <nav>
+                    <?php wp_nav_menu( 
+                        array(
+                            'theme_location'    => 'top_menu',
+                            'menu_class'        => 'menu-principal',
+                            'container_class'   =>  'container-menu' 
+                        )
+                     ) ?>
+                </nav>
             </div>
         </div>
     </div>

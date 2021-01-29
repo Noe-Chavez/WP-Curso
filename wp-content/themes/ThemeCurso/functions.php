@@ -1,9 +1,20 @@
 <!-- Todo el código que hagamos se define aquí -->
 <?php 
+
     # Estaes una función propia para inicializar el tamplete.
     function init_template() {
+        
         add_theme_support( 'post-thumbnails' ); # Establecer imagen destacada en todas nuestras entradas.
         add_theme_support( 'title-tag' );                # Imprime en el header el nombre de nuestra página.
+        
+        # Rwgistrar el menu a la interfaz de WP
+        register_nav_menus( 
+            array(
+                'top_menu' => 'Menú Principal'
+            ),
+            'Esta opción habilita en la interfaz de admin. de WP en: apariencia-->Menús'
+        );
+
     }
 
     # Ejecutar la función creada en el hoot de WP para que nuestra función init_template funcione.
