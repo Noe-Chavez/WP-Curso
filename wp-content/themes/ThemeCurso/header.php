@@ -28,7 +28,7 @@
                         array(
                             'theme_location'    => 'top_menu',
                             'menu_class'        => 'menu-principal',
-                            'container_class'   =>  'container-menu' 
+                            'container_class'   => 'container-menu' 
                         )
                      ) ?>
                 </nav>

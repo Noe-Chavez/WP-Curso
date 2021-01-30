@@ -51,7 +51,22 @@
     # Agregar al hook, cuando se cargé lapágina (wp_enqueue_scripts), la función assets que contienen el tipo de letra y los estilos. 
     add_action('wp_enqueue_scripts','assets');
 
+    # Agregando widgets
+    function sidebar(){
+        register_sidebar(
+            array(
+                'name'          => 'Pie de página',
+                'id'            => 'footer',
+                'description'   => 'Zona de Widgets para pie de página',
+                'before_title'  => '<p>',
+                'after_title'   => '</p>',
+                'before_widget' => '<div id="%1$s" class="%2$s">',
+                'after_widget'  => '</div>',
+            )
+        );
+    }
 
-
+    # Para inicializar nuestro codigo dentro de wp.
+    add_action('widgets_init', 'sidebar');
 
 ?>
