@@ -5,11 +5,11 @@
     function init_template() {
         
         add_theme_support( 'post-thumbnails' ); # Establecer imagen destacada en todas nuestras entradas.
-        add_theme_support( 'title-tag' );                # Imprime en el header el nombre de nuestra página.
+        add_theme_support( 'title-tag' );       # Imprime en el header el nombre de nuestra página.
         
         # Rwgistrar el menu a la interfaz de WP
         register_nav_menus( 
-            array(
+            array( 
                 'top_menu' => 'Menú Principal'
             ),
             'Esta opción habilita en la interfaz de admin. de WP en: apariencia-->Menús'
@@ -22,7 +22,7 @@
      * primer argumento: Cuando alguén ingrese al sitio, WP eliga el tema y ejecute nuestras opciones.
      * segundo argumento: Es el nombre de la función.
      */
-    add_action( 'after_setup_theme', 'init_template');
+    add_action('after_setup_theme', 'init_template');
 
     function assets() {
         # Establecer dependencia a bootstrap para estilo.
@@ -32,7 +32,7 @@
         # Registrar en WP las dos dependencia anteriores y el archivo style.css (utilizando la función get_stylesheet_uri() que nos devuelve la ruta de éste).
         wp_enqueue_style('estilos', get_stylesheet_uri(), array('bootstrap','montserrat'),'1.0','all'); 
 
-        #Agregando JQuery y popper, dependencia que requiere bootstrap para funcionar.
+        #Agregando JQuery (ya se encuentra en el core de WP) y popper, dependencia que requiere bootstrap para funcionar.
         wp_register_script( 'popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js', '', '2.5.4', true );
         
         # Agregar en cola las dependeicias de jascropt para boostrap. 
