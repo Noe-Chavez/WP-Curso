@@ -66,7 +66,7 @@
         );
     }
 
-    # Para inicializar nuestro codigo dentro de wp.
+    # Para inicializar nuestro codigo de sidebar dentro de wp.
     add_action('widgets_init', 'sidebar');
 
 ?>
