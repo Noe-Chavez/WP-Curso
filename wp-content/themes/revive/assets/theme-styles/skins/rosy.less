@@ -1,0 +1,20 @@
+@import '../variables';
+@import '../functions';
+
+@accent: #FEA09B;
+
+@import '../_init';
+@import '../woocommerce';
+
+#site-navigation ul ul li:nth-child(odd){
+  background: @accent;
+}
+#site-navigation ul ul li:hover{
+  background: darken(@accent, 10%);
+}
+#site-navigation ul ul li:nth-child(2n){
+  background: #cccccc;
+  &:hover{
+    background: lighten(@accent,6%) !important;
+  }
+}

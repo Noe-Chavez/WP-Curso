@@ -1,0 +1,120 @@
+ChangeLog
+=========
+
+
+Version 0.9*
+
+	i) Initial Release.
+	
+Version 0.91
+
+	i) Minor Bug Fixes
+	ii) Fixed Font Issues
+	iii) Fixed Screenshot Issues.
+	
+Version 0.92
+
+	i) Bug Fixes.	
+	
+Version 0.93
+
+	i) Fixed PHP Errors.	
+	
+Version 0.94
+
+	i) PHP Bug Fixes.
+	ii) Other Readability Fixes.	
+	
+Version 0.95 (First Public Release)
+
+	i) Removed config.codekit
+	ii) Fixed Sanitization and Escaping Issues
+	iii) Fixed Slides to Maximum of 3.
+	iv) Other Bug Fixes.	
+	
+Version 1.0 
+
+	i) Corrected Upgrade Link.	
+	
+Version 1.0.0.1
+
+	i) Fixed Bottom Menu on Internet Explorer.	
+	
+Version 1.0.0.2
+
+	i) Fixed Untranslated String.
+	ii) Added New Theme Tags. Remove Depreceated Tags.	
+	
+Version 1.0.0.3	
+
+	i) Layout Fixes(Misaligned date, and overlapping footer)
+	
+Version 1.0.0.4
+
+	i) Fonts not loading in Customizer
+	ii) Customizer styles loaded in Correct Hook
+	
+Version 1.0.0.5
+
+	i) Strip Tags for Custom CSS	
+	
+Version 1.0.0.6
+
+	i) Fixed Bugs, when sticky posts were enabled. Featured posts go into next line no more
+
+Version 1.0.0.7
+
+    i) Framework updated.
+    ii) Typography option added for site title and description as well as page/post content.
+    iii) 4 new skins added for better designing purpose.
+    iv) Contact Us Page template added.
+    v) Full width page  template added.
+    vi) Social icons styles added and added sticky option also.
+    vii) Bug fixed related to featured area sections and menus.
+    viii) Footer menu Bug Fixed.
+    ix) Footer menu on mobile screen bug fixed.
+    x) Sticky sidebar added.
+
+Version 1.0.0.8
+
+    i) Added Menu Alignment control.
+    ii) Minor bug fixed of featured areas section.
+    iii) Minor bug fixed of Blog Layouts section.
+    iv) Slider issues fixed on mobile screen.
+
+Version 1.0.0.9
+
+    i) Featured area bug fixed.
+    ii) Revive Blog layout minor bug fixed.
+
+Version: 1.0.1.0
+
+    i) blog layout minor bug fixed.
+
+Version 1.1.0
+
+    i) Sticky sidebar and stick social icons bug fixed.
+    ii) minor bug fixed.
+    iii) WooCommerce Added.
+
+Version 1.2.0
+
+	i) Added 2 New Featured Areas
+	ii) Improved Customizer Interface
+	iii) Added Support for WPForms-Lite
+	iv)	Fixed a lot of bugs
+
+Version 1.2.1
+
+	i) Improved Slider Functionality
+	ii) Added ShareASale ID and WPForms notification
+
+Version 1.2.2
+
+	i) Fixed Logo Overlap issue
+	ii) Fixed Contact Form Customizer Bugs
+
+Version 1.2.3
+
+	i) Mega Post Enable Disable Button Fixed
+	ii) Slider Description CSS Issue Fixed
