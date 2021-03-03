@@ -1,0 +1,43 @@
+#featured-area-2 {
+  margin-bottom: 20px;
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .imgcontainer {
+    padding: 1px;
+
+    .popimage {
+      position: relative;
+      img {
+        -webkit-filter: brightness(0.4);
+        filter: brightness(0.4);
+        width: 100%;
+        .transition(0.8s all ease);
+      }
+      .titledesc {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        .transform(translateY(-60%));
+        pointer-events: none;
+        a {
+          color: white;
+          font-size: 16px;
+          font-weight: lighter;
+          display: block;
+          text-align: center;
+          pointer-events: none;
+        }
+
+      }
+      @media screen and (min-width: 767px) {
+        &:hover {
+          img {
+            -webkit-filter: brightness(0.7);
+            filter: brightness(0.7);
+          }
+        }
+      }
+    }
+  }
+}
